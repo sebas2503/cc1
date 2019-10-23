@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-//tamaño iterativa
+//tamaÃ±o iterativa
 int tama(char *cadena){
     int tam=0;
     while(*cadena++ != '\0'){
@@ -9,7 +9,7 @@ int tama(char *cadena){
     }
     return tam;
 }
-//tamaño recursiva
+//tamaÃ±o recursiva
 int tama_recu(char *cadena){
     if(*cadena=='\0'){return 0;}
     return 1+tama_recu(++cadena);}
@@ -39,7 +39,7 @@ bool palindrome(char *cadena,char *f){
 }
 //palindrome recursiva
 bool palindrome_recu(char *cadena,char *f){
-    if(cadena==f){
+    if(cadena<=f){
         return true;
     }
     if(*cadena != *f){
