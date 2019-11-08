@@ -69,6 +69,12 @@ class Estudiante :public Persona
 };
 int main()
 {
+    //Persona
+    Persona f;
+    f.printPersona();
+    //Empleado
+    Empleado x;
+    x.printEmpleado();
     //Estudiante
     Estudiante j;
     j.printEstudiante();
